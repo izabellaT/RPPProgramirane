@@ -14,7 +14,15 @@ namespace StatisticArray1
             }
             Console.WriteLine(OptionsManager.CountLess100(arr));
             Console.WriteLine(OptionsManager.MaxNum(arr));
+
+            OptionsManager.ChetniEdinRed(arr);
+            Console.WriteLine(OptionsManager.ChetniSum(arr));
+            Console.WriteLine(OptionsManager.ChetniCount(arr));
+
             arr = OptionsManager.ReverseArr(arr);
+            OptionsManager.PrintArr(arr);
+
+
         }
     }
 }
